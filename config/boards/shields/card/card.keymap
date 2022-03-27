@@ -287,7 +287,7 @@
             label = "TD11A";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp SQT>, <&kp DQT>, <&kp RBKT;
+            bindings = <&kp SQT>, <&kp DQT>, <&kp RBKT>;
         };
 	td11b: td11b {
             compatible = "zmk,behavior-tap-dance";
