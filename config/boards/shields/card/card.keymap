@@ -34,13 +34,13 @@
 
 
 
-#define 1a1 8	
-#define 1a2 9	
-#define 1a3 10	
-#define 1a4 11	
-#define 1a5 12	
-#define 1a6 13	
-#define 1a7 14	
+#define AF1 8	
+#define AF2 9	
+#define AF3 10	
+#define AF4 11	
+#define AF5 12	
+#define AF6 13	
+#define AF7 14	
 
 / { 
     combos {
@@ -145,7 +145,7 @@
             tapping-term-ms = <190>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
-            bindings = <&kp T>, <&sl 1a2>;
+            bindings = <&kp T>, <&sl AF2>;
         };
 	td1_2x: td1_2x {
             compatible = "zmk,behavior-hold-tap";
@@ -154,7 +154,7 @@
             tapping-term-ms = <190>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
-            bindings = <&kp A>, <&sl 1a3>;
+            bindings = <&kp A>, <&sl AF3>;
         };
 	td1_3x: td1_3x {
             compatible = "zmk,behavior-hold-tap";
@@ -163,7 +163,7 @@
             tapping-term-ms = <190>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
-            bindings = <&kp N>, <&sl 1a4>;
+            bindings = <&kp N>, <&sl AF4>;
         };
 	td1a: td1a {
             compatible = "zmk,behavior-tap-dance";
@@ -179,7 +179,7 @@
             tapping-term-ms = <190>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
-            bindings = <&kp E>, <&sl 1a5>;
+            bindings = <&kp E>, <&sl AF5>;
         };
 	td1b_2x: td1b_2x {
             compatible = "zmk,behavior-hold-tap";
@@ -188,7 +188,7 @@
             tapping-term-ms = <190>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
-            bindings = <&kp I>, <&sl 1a6>;
+            bindings = <&kp I>, <&sl AF6>;
         };
 	td1b_3x: td1b_3x {
             compatible = "zmk,behavior-hold-tap";
@@ -197,7 +197,7 @@
             tapping-term-ms = <190>;
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
-            bindings = <&kp O>, <&sl 1a7>;
+            bindings = <&kp O>, <&sl AF7>;
         };
 	td1b: td1b {
             compatible = "zmk,behavior-tap-dance";
