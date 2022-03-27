@@ -253,58 +253,58 @@
 
        		1a1 {
 		bindings = <
-		&trans 	 	&trans		&trans 		&trans			&trans		&trans		&trans		&trans
-		&trans 	 	&trans		&trans 		&td1a			&td1b		&trans		&trans		&trans
-		&trans 	 	&trans		&trans 		&to AL1			&trans		&trans		&trans		&trans
-								&trans	 		&trans
+		&none 	 	&none		&none 		&none			&none		&none		&none		&none
+		&none 	 	&none		&none 		&td1a			&td1b		&none		&none		&none
+		&none 	 	&none		&none 		&to AL1			&none		&none		&none		&none
+								&none	 		&none
 		>;
 		};
        		1a2 {
 		bindings = <
-		&trans 	 	&trans		&trans 		&trans			&trans		&trans		&trans		&trans
-		&trans 	 	&trans		&trans 		&kp S			&kp H		&trans		&trans		&trans
-		&trans 	 	&trans		&trans 		&to AL1			&trans		&trans		&trans		&trans
-								&trans	 		&trans
+		&none 	 	&none		&none 		&none			&none		&none		&none		&none
+		&none 	 	&none		&none 		&kp S			&kp H		&none		&none		&none
+		&none 	 	&none		&none 		&to AL1			&none		&none		&none		&none
+								&none	 		&none
 		>;
 		};
        		1a3 {
 		bindings = <
-		&trans 	 	&trans		&trans 		&trans			&trans		&trans		&trans		&trans
-		&trans 	 	&trans		&trans 		&kp R			&kp D		&trans		&trans		&trans
-		&trans 	 	&trans		&trans 		&to AL1			&trans		&trans		&trans		&trans
-								&trans	 		&trans
+		&none 	 	&none		&none 		&none			&none		&none		&none		&none
+		&none 	 	&none		&none 		&kp R			&kp D		&none		&none		&none
+		&none 	 	&none		&none 		&to AL1			&none		&none		&none		&none
+								&none	 		&none
 		>;
 		};
        		1a4 {
 		bindings = <
-		&trans 	 	&trans		&trans 		&trans			&trans		&trans		&trans		&trans
-		&trans 	 	&trans		&trans 		&kp L			&kp U		&trans		&trans		&trans
-		&trans 	 	&trans		&trans 		&to AL1			&trans		&trans		&trans		&trans
-								&trans	 		&trans
+		&none 	 	&none		&none 		&none			&none		&none		&none		&none
+		&none 	 	&none		&none 		&kp L			&kp U		&none		&none		&none
+		&none 	 	&none		&none 		&to AL1			&none		&none		&none		&none
+								&none	 		&none
 		>;
 		};
        		1a5 {
 		bindings = <
-		&trans 	 	&trans		&trans 		&trans			&trans		&trans		&trans		&trans
-		&trans 	 	&trans		&trans 		&kp C			&kp M		&trans		&trans		&trans
-		&trans 	 	&trans		&trans 		&to AL1			&trans		&trans		&trans		&trans
-								&trans	 		&trans
+		&none 	 	&none		&none 		&none			&none		&none		&none		&none
+		&none 	 	&none		&none 		&kp C			&kp M		&none		&none		&none
+		&none 	 	&none		&none 		&to AL1			&none		&none		&none		&none
+								&none	 		&none
 		>;
 		};
        		1a6 {
 		bindings = <
-		&trans 	 	&trans		&trans 		&trans			&trans		&trans		&trans		&trans
-		&trans 	 	&trans		&trans 		&kp F			&kp W		&trans		&trans		&trans
-		&trans 	 	&trans		&trans 		&to AL1			&trans		&trans		&trans		&trans
-								&trans	 		&trans
+		&none 	 	&none		&none 		&none			&none		&none		&none		&none
+		&none 	 	&none		&none 		&kp F			&kp W		&none		&none		&none
+		&none 	 	&none		&none 		&to AL1			&none		&none		&none		&none
+								&none	 		&none
 		>;
 		};
        		1a7 {
 		bindings = <
-		&trans 	 	&trans		&trans 		&trans			&trans		&trans		&trans		&trans
-		&trans 	 	&trans		&trans 		&kp Y			&kp G		&trans		&trans		&trans
-		&trans 	 	&trans		&trans 		&to AL1			&trans		&trans		&trans		&trans
-								&trans	 		&trans
+		&none 	 	&none		&none 		&none			&none		&none		&none		&none
+		&none 	 	&none		&none 		&kp Y			&kp G		&none		&none		&none
+		&none 	 	&none		&none 		&to AL1			&none		&none		&none		&none
+								&none	 		&none
 		>;
 		};
         
