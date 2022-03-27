@@ -53,7 +53,7 @@
         combo_1april {
             timeout-ms = <30>;
 	    key-positions = <1 2 3>;
-            bindings = <&to 1a1>;
+            bindings = <&to AF1>;
         };
         combo_sys {
             timeout-ms = <30>;
