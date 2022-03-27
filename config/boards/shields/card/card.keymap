@@ -156,7 +156,7 @@
         };
 	td1b: td1b {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD1A";
+            label = "TD1B";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&tdAF AF5 E>, <&tdAF AF6 I>, <&tdAF AF7 O>;
