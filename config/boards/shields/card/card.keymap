@@ -230,7 +230,7 @@
             label = "TD7A";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp SPC>,<&kp ESC>, <&caps_word>;
+            bindings = <&kp SPC>,<&kp ESC>, <&caps>;
         };
 	td7b: td7b {
             compatible = "zmk,behavior-tap-dance";
