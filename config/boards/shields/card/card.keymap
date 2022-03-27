@@ -203,28 +203,28 @@
             label = "TD5A";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp X>, <&kp V>, <&kp Q>;
+            bindings = <&kp X>, <&kp V>, <&kp Z>;
         };
 	td5b: td5b {
             compatible = "zmk,behavior-tap-dance";
             label = "TD5B";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp Z>, <&kp T>, <&kp E>;
+            bindings = <&kp T>, <&kp A>, <&kp E>;
         };
 	td6a: td6a {
             compatible = "zmk,behavior-tap-dance";
             label = "TD6A";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp I>, <&kp N>, <&kp BKSP>;
+            bindings = <&kp I>, <&kp N>, <&kp O>;
         };
 	td6b: td6b {
             compatible = "zmk,behavior-tap-dance";
             label = "TD6B";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp A>, <&kp O>, <&kp RET>;
+            bindings = <&kp BKSP>, <&kp RET>, <&kp RET>;
         };
 	td7a: td7a {
             compatible = "zmk,behavior-tap-dance";
