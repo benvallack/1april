@@ -44,7 +44,6 @@
 #define AF8 16	
 #define AF9 17	
 #define AF10 18	
-#define AF11 19	
 
 / { 
     combos {
@@ -448,14 +447,6 @@
 		bindings = <
 		&none 	 	&none		&none 		&none			&none		&none		&none		&none
 		&none 	 	&none		&none 		&td10a			&td10b		&none		&none		&none
-		&none 	 	&none		&none 		&to AL1			&none		&none		&none		&none
-								&none	 		&none
-		>;
-		};
-       		1a11 {
-		bindings = <
-		&none 	 	&none		&none 		&none			&none		&none		&none		&none
-		&none 	 	&none		&none 		&td11a			&td11b		&none		&none		&none
 		&none 	 	&none		&none 		&to AL1			&none		&none		&none		&none
 								&none	 		&none
 		>;
