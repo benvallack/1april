@@ -34,13 +34,13 @@
 
 
 
-#define AF1 8	
-#define AF2 9	
-#define AF3 10	
-#define AF4 11	
-#define AF5 12	
-#define AF6 13	
-#define AF7 14	
+#define AF1 9	
+#define AF2 10	
+#define AF3 11	
+#define AF4 12	
+#define AF5 13	
+#define AF6 14	
+#define AF7 15	
 
 / { 
     combos {
