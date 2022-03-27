@@ -30,6 +30,12 @@
 #define NM1 5	
 #define SYS 6
 #define BT 7	
+
+
+
+
+#define 1a1 8	
+
 / { 
     combos {
         compatible = "zmk,combos";
@@ -37,6 +43,11 @@
             timeout-ms = <30>;
 	    key-positions = <2 3 4 5>;
             bindings = <&to GM>;
+        };
+        combo_1april {
+            timeout-ms = <30>;
+	    key-positions = <1 2 3>;
+            bindings = <&to 1a1>;
         };
         combo_sys {
             timeout-ms = <30>;
@@ -120,6 +131,75 @@
 		#binding-cells = <0>;
 		bindings = < &sl AL2 >;
 	};
+	
+	td1_1x: td1_1x {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TD1_1X";
+            #binding-cells = <2>;
+            tapping-term-ms = <190>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp T>, <&sl 1a2>;
+        };
+	td1_2x: td1_2x {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TD1_2X";
+            #binding-cells = <2>;
+            tapping-term-ms = <190>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp A>, <&sl 1a3>;
+        };
+	td1_3x: td1_3x {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TD1_3X";
+            #binding-cells = <2>;
+            tapping-term-ms = <190>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp N>, <&sl 1a4>;
+        };
+	td1a: td1a {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD1A";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&td1_1x>, <&td1_2x>, <&td1_3x >;
+        };
+	td1b_1x: td1b_1x {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TD1B_1X";
+            #binding-cells = <2>;
+            tapping-term-ms = <190>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp E>, <&sl 1a5>;
+        };
+	td1b_2x: td1b_2x {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TD1B_2X";
+            #binding-cells = <2>;
+            tapping-term-ms = <190>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp I>, <&sl 1a6>;
+        };
+	td1b_3x: td1b_3x {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TD1B_3X";
+            #binding-cells = <2>;
+            tapping-term-ms = <190>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp O>, <&sl 1a7>;
+        };
+	td1b: td1b {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD1A";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&td1b_1x>, <&td1b_2x>, <&td1b_3x >;
+        };
     };
        keymap {
                 compatible = "zmk,keymap";
@@ -199,6 +279,70 @@
 		&trans 	 	&kp LS(V)	&kp LS(W)	&kp LS(M) 	 	&kp LS(F)    	&trans		&kp LS(Z)	&trans 
 		&kp LS(Q) 	&kp LS(J) 	&kp LS(P)	&kp LS(K)		&kp LS(B)	&kp COMMA	&kp LS(X)	&kp LS(Y) 
 		&trans	 	&trans 		&trans 		&trans 			&kp LA(SEMI)	&trans		&trans		&trans
+								&trans	 		&trans
+		>;
+		};
+
+
+
+
+
+
+
+
+       		1a1 {
+		bindings = <
+		&trans 	 	&trans		&trans 		&trans			&trans		&trans		&trans		&trans
+		&trans 	 	&trans		&trans 		&td1a			&td1b		&trans		&trans		&trans
+		&trans 	 	&trans		&trans 		&to AL1			&trans		&trans		&trans		&trans
+								&trans	 		&trans
+		>;
+		};
+       		1a2 {
+		bindings = <
+		&trans 	 	&trans		&trans 		&trans			&trans		&trans		&trans		&trans
+		&trans 	 	&trans		&trans 		&kp S			&kp H		&trans		&trans		&trans
+		&trans 	 	&trans		&trans 		&to AL1			&trans		&trans		&trans		&trans
+								&trans	 		&trans
+		>;
+		};
+       		1a3 {
+		bindings = <
+		&trans 	 	&trans		&trans 		&trans			&trans		&trans		&trans		&trans
+		&trans 	 	&trans		&trans 		&kp R			&kp D		&trans		&trans		&trans
+		&trans 	 	&trans		&trans 		&to AL1			&trans		&trans		&trans		&trans
+								&trans	 		&trans
+		>;
+		};
+       		1a4 {
+		bindings = <
+		&trans 	 	&trans		&trans 		&trans			&trans		&trans		&trans		&trans
+		&trans 	 	&trans		&trans 		&kp L			&kp U		&trans		&trans		&trans
+		&trans 	 	&trans		&trans 		&to AL1			&trans		&trans		&trans		&trans
+								&trans	 		&trans
+		>;
+		};
+       		1a5 {
+		bindings = <
+		&trans 	 	&trans		&trans 		&trans			&trans		&trans		&trans		&trans
+		&trans 	 	&trans		&trans 		&kp C			&kp M		&trans		&trans		&trans
+		&trans 	 	&trans		&trans 		&to AL1			&trans		&trans		&trans		&trans
+								&trans	 		&trans
+		>;
+		};
+       		1a6 {
+		bindings = <
+		&trans 	 	&trans		&trans 		&trans			&trans		&trans		&trans		&trans
+		&trans 	 	&trans		&trans 		&kp F			&kp W		&trans		&trans		&trans
+		&trans 	 	&trans		&trans 		&to AL1			&trans		&trans		&trans		&trans
+								&trans	 		&trans
+		>;
+		};
+       		1a7 {
+		bindings = <
+		&trans 	 	&trans		&trans 		&trans			&trans		&trans		&trans		&trans
+		&trans 	 	&trans		&trans 		&kp Y			&kp G		&trans		&trans		&trans
+		&trans 	 	&trans		&trans 		&to AL1			&trans		&trans		&trans		&trans
 								&trans	 		&trans
 		>;
 		};
