@@ -272,14 +272,14 @@
             label = "TD10A";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp SQT>, <&kp DQT>, <&kp RBKT>;
+            bindings = <&kp SQT>, <&kp DQT>, <&kp LBKT>;
         };
 	td10b: td10b {
             compatible = "zmk,behavior-tap-dance";
             label = "TD11B";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp COMMA>, <&kp LBKT>, <&kp EXCL>;
+            bindings = <&kp COMMA>, <&kp EXCL>, <&kp RBKT>;
         };
     };
        keymap {
