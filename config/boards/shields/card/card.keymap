@@ -209,7 +209,7 @@
             label = "TD5B";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp I>, <&kp B>, <&kp Y>;
+            bindings = <&kp I>, <&kp B>, <&kp C>;
         };
 	td6a: td6a {
             compatible = "zmk,behavior-tap-dance";
