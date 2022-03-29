@@ -160,63 +160,63 @@
             label = "TD2A";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp S>, <&kp R>, <&kp L>;
+            bindings = <&kp A>, <&kp Y>, <&kp P>;
         };
 	td2b: td2b {
             compatible = "zmk,behavior-tap-dance";
             label = "TD2B";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp H>, <&kp D>, <&kp U>;
+            bindings = <&kp E>, <&kp U>, <&kp X>;
         };
 	td3a: td3a {
             compatible = "zmk,behavior-tap-dance";
             label = "TD3A";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp C>, <&kp F>, <&kp Y>;
+            bindings = <&kp S>, <&kp V>, <&kp Q>;
         };
 	td3b: td3b {
             compatible = "zmk,behavior-tap-dance";
             label = "TD3B";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp M>, <&kp W>, <&kp G>;
+            bindings = <&kp N>, <&kp R>, <&kp F>;
         };
 	td4a: td4a {
             compatible = "zmk,behavior-tap-dance";
             label = "TD4A";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp P>, <&kp V>, <&kp Q>;
+            bindings = <&kp K>, <&kp J>, <&kp Z>;
         };
 	td4b: td4b {
             compatible = "zmk,behavior-tap-dance";
             label = "TD4B";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp B>, <&kp K>, <&kp J>;
+            bindings = <&kp H>, <&kp L>, <&kp W>;
         };
 	td5a: td5a {
             compatible = "zmk,behavior-tap-dance";
             label = "TD5A";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp X>, <&kp V>, <&kp Z>;
+            bindings = <&kp T>, <&kp M>, <&kp G>;
         };
 	td5b: td5b {
             compatible = "zmk,behavior-tap-dance";
             label = "TD5B";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp T>, <&kp A>, <&kp E>;
+            bindings = <&kp I>, <&kp B>, <&kp Y>;
         };
 	td6a: td6a {
             compatible = "zmk,behavior-tap-dance";
             label = "TD6A";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&kp I>, <&kp N>, <&kp O>;
+            bindings = <&kp O>, <&kp D>, <&kp QMARK>;
         };
 	td6b: td6b {
             compatible = "zmk,behavior-tap-dance";
